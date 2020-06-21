@@ -18,16 +18,6 @@ public class FirstDemo {
 		element.submit();
 
 		System.out.println("Page title is: " + driver.getTitle());
-
-		/*(new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
-			public Boolean apply(WebDriver d) {
-				return d.getTitle().toLowerCase().startsWith("cheese!");
-				}
-			});*/
-
-		System.out.println("Page title is: " + driver.getTitle());
-		
-		driver.close();
 	}
 
 }
